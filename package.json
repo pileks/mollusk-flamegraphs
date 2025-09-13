@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "programs:build": "./scripts/programs/build.sh",
+    "programs:test": "RUST_LOG=error ./scripts/programs/test.sh",
+    "programs:profile": "./scripts/programs/profile.sh",
+    "generate": "bun generate:idls",
+    "generate:idls": "bun ./scripts/generate-idls.ts"
+  },
+  "devDependencies": {
+    "@metaplex-foundation/kinobi": "0.18.5",
+    "@metaplex-foundation/shank-js": "0.1.7",
+    "typescript": "5.7.3"
+  },
+  "packageManager": "bun@1.2.4"
+}
