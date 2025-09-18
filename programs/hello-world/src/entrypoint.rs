@@ -1,8 +1,6 @@
 #![allow(unexpected_cfgs)]
 
-use solana_program::{
-    account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
-};
+use solana_program::{account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey};
 
 use crate::processor;
 

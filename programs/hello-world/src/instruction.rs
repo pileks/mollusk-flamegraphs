@@ -5,6 +5,7 @@ use crate::processor::HelloWorldArgs;
 #[derive(Clone, Debug, PartialEq, Eq, ShankContext, ShankInstruction)]
 pub enum HelloWorldInstruction {
     #[account(0, name = "system_program", desc = "The system program")]
+    #[account(1, name = "hello_world_account", desc = "The hello world account")]
     HelloWorld(HelloWorldArgs),
 }
 
