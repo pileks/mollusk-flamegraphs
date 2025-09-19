@@ -16,7 +16,7 @@ PROGRAM_NAME="hello_world_program"
 usage() {
     echo "Usage: $0 [OPTIONS] [test_name]"
     echo ""
-    echo "Run Solana BPF tests with profiling and save the flamegraph"
+    echo "Run Solana BPF tests with profiling and save the flamegraphs of each instruction invocation"
     echo ""
     echo "Arguments:"
     echo "  test_name         Name of the test to run (optional, runs all if omitted)"
